@@ -49,6 +49,8 @@ main()
       left_icon="#S";;
     window)
       left_icon="#W";;
+    hostname)
+      left_icon="$(hostname)";;
     *)
       left_icon=$show_left_icon;;
   esac
